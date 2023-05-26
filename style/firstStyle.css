@@ -1,0 +1,13 @@
+
+body{
+background-color:lightpink;
+text-align: center;
+padding: 50px;
+font-family: 'Rubik Puddles', cursive;
+font-size: 300%;
+border: 2px solid powderblue;
+margin: 50px;
+}
+label{
+    color:darkblue;
+}     
