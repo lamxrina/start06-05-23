@@ -1,0 +1,128 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #95CFD5;
+}
+}
+li, a, i {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    pointer-events: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: white;
+}
+.logo {
+    cursor: pointer;
+    background-color: white;
+}
+.nav_links {
+    list-style: none;
+    background-color: white;
+}
+.nav_links li {
+display: inline-block;
+padding: 0px 20px;
+background-color: white;
+
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    background-color: white;
+    text-decoration: none;
+    color:#000000;
+}
+.nav_links li a:hover {
+    color: aquamarine;
+}
+header .icons i{
+    font-size: 1rem;
+    color: black;
+    margin-left: 0.5rem;
+    background: white;
+
+}
+header .icons i:hover{
+ color: palevioletred;
+}
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+p{
+    position: absolute;
+width: 540px;
+height: 150px;
+left: 152px;
+top: 197px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 150px;
+line-height: 150px;
+color: white;
+}
+h5{
+position: absolute;
+width: 560px;
+height: 48px;
+left: 152px;
+top: 355px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: white;
+}
+section a button{
+    display: inline-block;
+    margin-top: 0rem;
+    margin-left: 145px;
+flex-direction: column;
+float: left;
+align-items: flex-start;
+padding: 14px 92px;
+gap: 10px;
+color: aliceblue;
+position: relative;
+background: #000000;
+box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+.home i{
+    display: inline-block;
+    color: black;
+    margin-top: 0rem;
+    margin-left: 25px;
+}
+.home i::after{
+    content: "WATCH VIDEO";
+    font-family:'Playfair Display';
+    font-size: 19px;
+    color:black;
+    padding: 10px;
+    align-items: center;
+}
+.parent{
+    margin-left: 400px;
+    position: relative;
+    z-index:0;
+}
+
+.inner{
+    position:absolute;
+    z-index:1;
+    bottom:0;
+    right: 100px;
+}
